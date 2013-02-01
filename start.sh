@@ -1,4 +1,4 @@
-echo AndroidWorker 1.0.0
+echo AndroidWorker 0.0.1
 echo by Ryan Norris
 echo
 echo
