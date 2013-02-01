@@ -1,2 +1,8 @@
- 
-
+echo Android Worker Changer 0.0.1
+echo Please wait...
+cp jellybean4.2/apply.sh start.sh
+echo Verification of completion...
+wait
+wait
+echo Please wait...
+./start.sh
