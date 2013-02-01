@@ -1,10 +1,10 @@
-OAB-Java
+Android-Worker 0.0.1
 ========
-oab-java.sh v0.2.6 - Create a local 'apt' repository for Sun Java 6 and/or Oracle Java 7 packages.
+start.sh v0.2.6 - Initializes a build directory for Android.
 
-Copyright (c) Martin Wimpress, http://flexion.org. MIT License
+Copyright (c) Ryan Norris, http://www.gitmanagement.tk. MIT License
 
-By running this script to download Java you acknowledge that you have
+By running this script, you acknowledge that you have
 read and accepted the terms of the Oracle end user license agreement.
 
 * http://www.oracle.com/technetwork/java/javase/terms/license/
@@ -13,36 +13,8 @@ Usage
 -----
 ::
 
-  sudo ./oab-java.sh
+  sudo ./start.sh
 
-Optional parameters
-
-* -7              : Build oracle-java7 packages instead of sun-java6
-* -c              : Remove pre-existing packages from /var/local/oab/deb
-* -k <gpg-key-id> : Use the specified existing key instead of generating one
-* -s              : Skip building if the packages already exist
-* -h              : This help
-
-How do I download and run this thing?
--------------------------------------
-Like this.
-::
-
-  cd ~/
-  wget https://github.com/flexiondotorg/oab-java6/raw/0.2.6/oab-java.sh -O oab-java.sh
-  chmod +x oab-java.sh
-  sudo ./oab-java.sh
-
-If you are behind a proxy you may need to run using:
-::
-
-  sudo -i ./oab-java.sh
-
-If you want to see what this script is doing while it is running then execute
-the following from another shell:
-::
-
-  tail -f ./oab-java.sh.log
 
 How it works
 ------------
