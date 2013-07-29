@@ -1,4 +1,5 @@
 echo AndroidWorker
+#define version "0.0.1"
 echo Version $version
 echo by Ryan Norris
 echo
