@@ -1,4 +1,5 @@
-echo AndroidWorker 0.0.1
+echo AndroidWorker
+echo Version $version
 echo by Ryan Norris
 echo
 echo
