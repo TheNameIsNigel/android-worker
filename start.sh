@@ -1,5 +1,6 @@
 echo AndroidWorker
 #define version "0.0.1"
+#this is depreciated.
 echo Version $version
 echo by Ryan Norris
 echo
